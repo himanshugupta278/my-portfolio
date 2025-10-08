@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Himanshu Kumar Gupta - Frontend Developer Portfolio</title>
+  <!-- FontAwesome icons CDN for social icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container" role="main">
+    <nav class="sidebar" aria-label="Primary">
+      <!-- Profile Image placeholder -->
+      <img src="https://via.placeholder.com/100" alt="Profile picture of Himanshu Kumar Gupta" class="profile-pic" />
+      <h2>Himanshu Kumar Gupta</h2>
+      <ul>
+        <li><a href="#hero" class="nav-link active" data-tooltip="Home">Home</a></li>
+        <li><a href="#about" class="nav-link" data-tooltip="About Me">About Me</a></li>
+        <li><a href="#resume" class="nav-link" data-tooltip="Resume">Resume</a></li>
+        <li><a href="#projects" class="nav-link" data-tooltip="Projects">Projects</a></li>
+        <li><a href="#contact" class="nav-link" data-tooltip="Contact">Contact</a></li>
+      </ul>
+
+      <div class="social-bar" aria-label="Social media links" role="region">
+        <a href="https://www.linkedin.com/in/himanshu-kumar-gupta-74875635b/" aria-label="LinkedIn Profile" target="_blank" rel="noopener">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/himanshugupta278" aria-label="GitHub Profile" target="_blank" rel="noopener">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.instagram.com/himanshu_gupta.827/?hl=en" aria-label="Instagram Profile" target="_blank" rel="noopener">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://x.com/gupta572554" aria-label="Twitter Profile" target="_blank" rel="noopener">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </div>
+    </nav>
+
+    <main class="content" tabindex="0">
+      <!-- Hero Section -->
+      <section id="hero" class="page-section active" aria-label="Introduction hero section">
+        <div class="text-area">
+          <h1>Hi there</h1>
+          <h2>Himanshu Kumar Gupta</h2>
+          <h3 style="color:#222; font-weight:600; margin-bottom: 1.2rem;">Frontend Developer</h3>
+          <p>I am a passionate Web Developer with a strong foundation in HTML, CSS, JavaScript, and modern frameworks. I enjoy creating clean, responsive, and user-friendly websites. I am eager to learn new technologies and contribute to building impactful digital experiences.</p>
+          <button aria-controls="about" aria-label="Reveal More about me section" id="moreAboutBtn">More about me</button>
+        </div>
+        <div class="profile-img" aria-hidden="true">
+          <img src="https://via.placeholder.com/260" alt="Profile image placeholder" />
+        </div>
+      </section>
+
+      <!-- About Me Section -->
+      <section id="about" class="page-section" aria-label="About Me section">
+        <h2>About Me</h2>
+        <p class="subtitle">I'm Himanshu Kumar Gupta – Frontend Developer (Fresher) | HTML, CSS, JS, React | Trained at Croma Campus</p>
+        <p>
+          I am a passionate Frontend Web Developer, trained at Croma Campus IT Training Institute, with strong skills in HTML, CSS, JavaScript,
+          React, and Bootstrap. I enjoy creating responsive, user-friendly, and visually appealing websites that bring ideas to life. I believe
+          graduation is just the beginning — real growth comes from continuous learning and practice. Through my training and self-projects,
+          I have gained practical experience in building interactive web pages, improving UI/UX, and writing clean, efficient code. My goal
+          is to grow as a professional Frontend Developer and contribute to innovative projects where design meets functionality.
+        </p>
+
+        <div class="stats-cards" aria-label="Personal key statistics">
+          <div class="stat-card" tabindex="0">
+            <div class="number">1+</div>
+            <div class="label">Years of Learning & Practice</div>
+          </div>
+          <div class="stat-card" tabindex="0">
+            <div class="number">10+</div>
+            <div class="label">Projects Completed</div>
+          </div>
+          <div class="stat-card" tabindex="0">
+            <div class="number">5+</div>
+            <div class="label">Happy Clients</div>
+          </div>
+          <div class="stat-card" tabindex="0">
+            <div class="number">100+</div>
+            <div class="label">Followers</div>
+          </div>
+        </div>
+
+        <div class="services" aria-label="Services offered">
+          <div class="service" tabindex="0">Responsive Web Design</div>
+          <div class="service" tabindex="0">Frontend Development</div>
+          <div class="service" tabindex="0">Website Optimization</div>
+        </div>
+      </section>
+
+      <!-- Resume / Education & Skills Section -->
+      <section id="resume" class="page-section" aria-label="Resume section">
+        <h2>Resume / Education & Skills</h2>
+
+        <div class="subsection" aria-labelledby="education-title">
+          <h3 id="education-title">Education</h3>
+          <p><strong>Kendriya Vidyalaya (K.V)</strong></p>
+          <p>Class 10th – 2021</p>
+          <p>Class 12th – 2023</p>
+        </div>
+
+        <div class="subsection" aria-labelledby="experience-title">
+          <h3 id="experience-title">Experience</h3>
+          <p>Fresher, currently working on projects and learning advanced frontend development.</p>
+        </div>
+
+        <div class="subsection" aria-labelledby="skills-title">
+          <h3 id="skills-title">Skills</h3>
+          <p><strong>Frontend:</strong></p>
+          <ul class="skills-list" aria-label="Frontend skills list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Bootstrap</li>
+          </ul>
+          <p style="margin-top: 1rem;"><strong>Tools:</strong></p>
+          <ul class="tools-list" aria-label="Tools list">
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>Photoshop (basic)</li>
+            <li>CorelDRAW (basic)</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="page-section" aria-label="Projects portfolio section">
+        <h2>Projects</h2>
+        <div class="project-grid">
+          <article class="project-card" tabindex="0" aria-labelledby="proj-login-title proj-login-desc">
+            <div class="project-screenshot" aria-hidden="true">Screenshot Placeholder</div>
+            <h3 class="project-title" id="proj-login-title">Login Form</h3>
+            <p class="project-desc" id="proj-login-desc">Glassmorphism login form, fully responsive.</p>
+            <a class="project-link" href="#" target="_blank" rel="noopener" aria-label="Live demo of Login Form project">Live Demo</a>
+          </article>
+          <article class="project-card" tabindex="0" aria-labelledby="proj-landing-title proj-landing-desc">
+            <div class="project-screenshot" aria-hidden="true">Screenshot Placeholder</div>
+            <h3 class="project-title" id="proj-landing-title">Landing Page</h3>
+            <p class="project-desc" id="proj-landing-desc">Soft green and white, fully responsive.</p>
+            <a class="project-link" href="#" target="_blank" rel="noopener" aria-label="Live demo of Landing Page project">Live Demo</a>
+          </article>
+          <article class="project-card" tabindex="0" aria-labelledby="proj-rps-title proj-rps-desc">
+            <div class="project-screenshot" aria-hidden="true">Screenshot Placeholder</div>
+            <h3 class="project-title" id="proj-rps-title">Rock Paper Scissors Game</h3>
+            <p class="project-desc" id="proj-rps-desc">Simple HTML/CSS/JS game.</p>
+            <a class="project-link" href="#" target="_blank" rel="noopener" aria-label="Live demo of Rock Paper Scissors Game project">Live Demo</a>
+          </article>
+          <article class="project-card" tabindex="0" aria-labelledby="proj-netflix-title proj-netflix-desc">
+            <div class="project-screenshot" aria-hidden="true">Screenshot Placeholder</div>
+            <h3 class="project-title" id="proj-netflix-title">Netflix Clone</h3>
+            <p class="project-desc" id="proj-netflix-desc">HTML/CSS clone with hero section and movie rows.</p>
+            <a class="project-link" href="#" target="_blank" rel="noopener" aria-label="Live demo of Netflix Clone project">Live Demo</a>
+          </article>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="page-section" aria-label="Contact section">
+        <h2>Contact Me</h2>
+        <p>Feel free to contact me! I’d love to hear from you. Whether you have a question, want to collaborate, or just say hi — my inbox is always open.</p>
+        <p class="info-item"><strong>Email:</strong> <span>himanshu.gupta572554@gmail.com</span></p>
+        <p class="info-item"><strong>Phone:</strong> <span>+91-8810536203</span></p>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js" >
+   
+  </script>
+</body>
+</html>
