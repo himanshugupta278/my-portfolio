@@ -1,4 +1,4 @@
-# 🌐 Personal Portfolio Website
+#  Personal Portfolio Website
 
 This is my **personal portfolio website**, created to showcase my skills, projects, and achievements as a frontend developer.  
 The website is fully responsive, clean, and designed to make a strong first impression.
@@ -29,16 +29,19 @@ The website is fully responsive, clean, and designed to make a strong first impr
 Portfolio/
 │
 ├── index.html # Main landing page
+
 ├── style.css # Stylesheet for all sections
+
 ├── script.js # JavaScript functionality
+
 └── assets/ # (Add images, icons, etc. if available)
 
-## 🖼️ Portfolio Preview
+##  Portfolio Preview
 
 ![Portfolio Screenshot](assets/portfolio-screenshot.png)
 
 ## Live Demo
-🔗 [View Live Demo](https://your-username.github.io/Portfolio/)  
+ [View Live Demo](https://your-username.github.io/Portfolio/)  
 
 ## Contact Me
 
