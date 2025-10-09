@@ -478,6 +478,30 @@
       color: #555;
       user-select: text;
     }
+    .social-links {
+  display: flex;
+  justify-content: center; /* Centers the row; use space-around for equal spacing around icons */
+  gap: 1rem; /* Equal spacing between icons; adjust as needed */
+  margin-top: 1.5rem; /* Space above the icons */
+}
+
+.social-links a {
+  color: #333; /* Default color; adjust to your theme */
+  font-size: 1.5rem; /* Icon size */
+  transition: all 0.3s ease; /* Smooth hover transition */
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #007bff; /* Hover color (e.g., blue); customize per platform if desired */
+  transform: scale(1.2); /* Slight scale-up on hover for effect */
+}
+
+/* Optional: Platform-specific hover colors */
+.social-links a[href*="github"]:hover { color: #333; }
+.social-links a[href*="linkedin"]:hover { color: #0077b5; }
+.social-links a[href*="instagram"]:hover { color: #e4405f; }
+.social-links a[href*="twitter"]:hover { color: #1da1f2; }
 
     /* Responsive */
 
