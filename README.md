@@ -44,8 +44,10 @@ Portfolio/
 
 If you want to connect or have any queries, feel free to reach out:
 
-Name: Himanshu Gupta
+Name: Himanshu Kumar Gupta
 
-Email: [your-email@example.com]
+Email: himanshu.gupta572554@gmail.com
+
 GitHub: https://github.com/himanshugupta278
+
 LinkedIn: https://www.linkedin.com/in/himanshu-kumar-gupta-74875635b/
