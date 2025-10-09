@@ -28,6 +28,7 @@ The website is fully responsive, clean, and designed to make a strong first impr
 
 Portfolio/
 │
+
 ├── index.html # Main landing page
 
 ├── style.css # Stylesheet for all sections
