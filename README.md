@@ -35,7 +35,7 @@ Portfolio/
 
 ├── script.js # JavaScript functionality
 
-└── assets/ # (Add images, icons, etc. if available)
+└── Image # (Add images, icons, etc. if available)
 
 ##  Portfolio Preview
 
