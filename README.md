@@ -39,10 +39,10 @@ Portfolio/
 
 ##  Portfolio Preview
 
-[Portfolio Screenshot](assets/portfolio-screenshot.png)
+![Portfolio Screenshot](assets/portfolio-screenshot.png)
 
 ## Live Demo
- [View Live Demo](https://your-username.github.io/Portfolio/)  
+ 
 
 ## Contact Me
 
